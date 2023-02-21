@@ -1,0 +1,26 @@
+.align-center {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.login {
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgb(18, 7, 50);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input {
+    width: 100%;    
+    font-size: 1.5rem;
+}
+
+.links {
+    background-color: rgb(241, 84, 84);
+}

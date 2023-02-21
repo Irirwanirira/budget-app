@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   end
 
   resources :starts, only: %i[index]
-  root 'start#index'
+  root 'starts#index'
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
