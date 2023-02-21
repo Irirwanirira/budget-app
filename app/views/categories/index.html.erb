@@ -1,14 +1,23 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Categories</h1>
+<section>
 
-<div id="categories">
-  <% @categories.each do |category| %>
-    <%= render category %>
-    <p>
-      <%= link_to "Show this category", category %>
-    </p>
+  <% if @categories.exists? %>
+    <div>
+      <h1>Categories</h1>
+      <% @categories.each do |category| %>
+        <div>
+          <%= render category %>
+          <%= button_to "Delete", category_path(category), method: :delete %>
+        </div>
+      <% end %> 
+    </div>
+
+  <% else %> 
+      <p> Picture</p>
   <% end %>
-</div>
 
-<%= link_to "New category", new_category_path %>
+  <div>
+    <%= link_to "Add Category", new_category_path %>
+  </div>
+</section>

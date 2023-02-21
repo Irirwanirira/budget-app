@@ -1,10 +1,30 @@
-<p style="color: green"><%= notice %></p>
-
-<%= render @category %>
-
-<div>
-  <%= link_to "Edit this category", edit_category_path(@category) %> |
-  <%= link_to "Back to categories", categories_path %>
-
-  <%= button_to "Destroy this category", @category, method: :delete %>
-</div>
+<section >
+  <div>
+  <h3>Transactions</h3>
+      <div>
+        <h2>
+          <%= @category.name %>
+        </h2>
+        <div>
+          <p> Total Amount: $
+          <%=@category.transactions.sum(:amount) %>
+          </p>
+          <%= button_to "Delete", @category, method: :delete %>
+        </div>
+      </div>
+      <% if @transactions.exists? %>
+        <div>
+          <% @transactions.each do |transaction| %>
+          <div> 
+              <%= render transaction %>
+            </div>
+          <% end %>
+        </div>
+      <% else %>  
+        <p>Picture</p>
+      <% end %>
+  </div>
+  <div>
+    <%= link_to "Add Transaction", new_category_transaction_path(@category) %>
+  </div>
+</section>
