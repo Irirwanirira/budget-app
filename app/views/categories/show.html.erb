@@ -1,16 +1,31 @@
-<section >
+<section class="section-transaction" >
   <div>
-  <h3>Transactions</h3>
-      <div>
+   
+      <div class="top-nav">
+        <p>back</p>
+        <h3>Transactions</h3>
+        <p> <%= link_to "Log out", destroy_user_session_path, data: { "turbo-method":
+        :delete } %></p>
+      </div>
+
+      <div class="below-nav">
+        <p> Total Amount: $
+        <%=@category.transactions.sum(:amount) %>
+        </p>
+        <%= button_to "Delete", @category, method: :delete, class: "delete" %>
+      </div>
+      
+      <div class="name-amount">
+        <img src="<%=@category.icon %>" alt='category icon', class="icon"/>
+
         <h2>
           <%= @category.name %>
         </h2>
-        <div>
-          <p> Total Amount: $
-          <%=@category.transactions.sum(:amount) %>
-          </p>
-          <%= button_to "Delete", @category, method: :delete %>
-        </div>
+        <p>
+        <strong>$</strong>
+        <%= @category.transactions.sum(:amount) %>
+      </p>
+
       </div>
       <% if @transactions.exists? %>
         <div>
@@ -21,10 +36,9 @@
           <% end %>
         </div>
       <% else %>  
-        <p>Picture</p>
       <% end %>
   </div>
-  <div>
-    <%= link_to "Add Transaction", new_category_transaction_path(@category) %>
-  </div>
+  <button class="flex-end">
+   <%= link_to "Add Transaction", new_category_transaction_path(@category), class: "add-transaction" %>
+  </button>
 </section>

@@ -1,9 +1,9 @@
 <section>
-  <p>Welcome, <%= @user.name %></p>
+  <p>Welcome, <%= @users.name %></p>
+ 
+    <p>Picture</p>
 
-  <%= image_tag "tra.png"%>
-
-  <div>
-    <%= link_to "Start", categories_path %>
-  </div>
+  <button class="flex-end">
+    <%= link_to "Start", categories_path, class: "add-transaction" %>
+  </button>
 </section>

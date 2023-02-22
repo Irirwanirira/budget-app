@@ -1,16 +1,18 @@
-<%= form_with(model: category) do |form| %>
+<section  class="align-center form-transact" >   
+  <%= form_with(model: category) do |form| %>
 
-  <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
-  </div>
+    <div>
+      <%= form.label :name, style: "display: block" %>
+      <%= form.text_field :name %>
+    </div>
 
-  <div>
-    <%= form.label :icon, style: "display: block" %>
-    <%= form.text_field :icon %>
-  </div>
+    <div>
+      <%= form.label :icon, style: "display: block" %>
+      <%= form.text_field :icon %>
+    </div>
 
-  <div>
-    <%= form.submit :save %>
-  </div>
-<% end %>
+    <button>
+      <%= form.submit :save %>
+    </button>
+  <% end %>
+</section>
