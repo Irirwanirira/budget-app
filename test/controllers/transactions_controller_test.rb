@@ -19,7 +19,7 @@ class TransactionsControllerTest < ActionDispatch::IntegrationTest
     assert_difference('Transaction.count') do
       post transactions_url,
            params: { transaction: { amount: @transaction.amount, category_id: @transaction.category_id, name: @transaction.name,
-                                    user_id: @transaction.user_id } }
+           user_id: @transaction.user_id } }
     end
 
     assert_redirected_to transaction_url(Transaction.last)
@@ -38,7 +38,7 @@ class TransactionsControllerTest < ActionDispatch::IntegrationTest
   test 'should update transaction' do
     patch transaction_url(@transaction),
           params: { transaction: { amount: @transaction.amount, category_id: @transaction.category_id, name: @transaction.name,
-                                   user_id: @transaction.user_id } }
+          user_id: @transaction.user_id } }
     assert_redirected_to transaction_url(@transaction)
   end
 
