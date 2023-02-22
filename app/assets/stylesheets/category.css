@@ -11,12 +11,13 @@
 }
 
 .flex-end {
-    margin-top: 60%;
+    margin-top: 25%;
     width: 100%;
     align-items: center;
     padding: 1rem;
+    border-radius: 2rem;
+    background-color: #fff;
 }
-
 
 .below-nav {
     display: flex;

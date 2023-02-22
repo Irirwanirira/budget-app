@@ -2,10 +2,10 @@
   <div>
    
       <div class="top-nav">
-        <p>back</p>
-        <h3>Transactions</h3>
-        <p> <%= link_to "Log out", destroy_user_session_path, data: { "turbo-method":
-        :delete } %></p>
+        <p><%= link_to "Back", categories_path%></p>
+        <h3>Transactions on <%= @category.name%></h3>
+        <p><%= link_to "User", users_path%></p>
+
       </div>
 
       <div class="below-nav">

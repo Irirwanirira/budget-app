@@ -3,20 +3,27 @@
 
   <% if @categories.exists? %>
     <div>
-      <h1>Categories</h1>
+    <div class="top-nav">
+    <p><%= link_to "User", users_path%></p>
+    <h1>Categories</h1>
+  </div>
+      
       <% @categories.each do |category| %>
         <div>
           <%= render category %>
-          <%= button_to "Delete", category_path(category), method: :delete %>
+          <%= button_to "Delete", category_path(category), method: :delete, class: "delete-category" %>
         </div>
       <% end %> 
     </div>
 
   <% else %> 
-    <%= image_tag("ineza/ineza.jpg")%>
+  <div class="logo">
+    <p class="app_name">E-neza Transaction</p>
+  </div>
   <% end %>
 
-  <div>
-    <%= link_to "Add Category", new_category_path %>
-  </div>
+  <button class="flex-end-add">
+    <%= link_to "Add Category", new_category_path, class: "add-cate" %>
+  </button>
+
 </section>
