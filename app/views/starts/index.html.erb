@@ -1,10 +1,12 @@
-<section>
+<section class="on_start">
+  
+  <div class="logo">
+    <p class="app_name">E-neza Transaction</p>
+  </div>
 
-  <%= image_tag("ineza/ineza.png")%>
-
-  <div>
-    <%= link_to "Log in", new_user_session_path%>
-    <%= link_to "Sign up", new_user_registration_path %>
+  <div class="start">
+    <p><%= link_to "Log in", new_user_session_path%></p>
+    <p><%= link_to "Sign up", new_user_registration_path %></p>
   </div>
 
 </section>
