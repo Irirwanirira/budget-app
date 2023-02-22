@@ -14,17 +14,6 @@
         </p>
         <%= button_to "Delete", @category, method: :delete, class: "delete" %>
       </div>
-      
-      <div class="name-amount">
-        <img src="<%=@category.icon %>" alt='category icon', class="icon"/>
-
-        <h2>
-          <%= @category.name %>
-        </h2>
-        <p>
-        <strong>$</strong>
-        <%= @category.transactions.sum(:amount) %>
-      </p>
 
       </div>
       <% if @transactions.exists? %>

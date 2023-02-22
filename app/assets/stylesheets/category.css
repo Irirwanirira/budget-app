@@ -17,12 +17,6 @@
     padding: 1rem;
 }
 
-.add-transaction {
-    padding: 2rem;
-    font-size: 2rem;
-    color: aliceblue;
-    text-decoration: none;
-}
 
 .below-nav {
     display: flex;
@@ -49,35 +43,13 @@
     padding: 0.5rem;
 }
 
-.section-transaction {
-    margin: 0;
-    padding: 0;
-
-}
-
 .icon {
     width: 20%;
-}
-
-.save-transact {
-    border: none;
-    font-size: 1rem;
-}
-
-.form-transact button {
-    background-color: none;
-    margin-top: 0.5rem;
-    padding: 0.5;
 }
 
 .category-select {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-}
-
-.new-transaction {
-    text-align: center;
-    margin-top: 2rem;
 }
 
 .category-flex {
