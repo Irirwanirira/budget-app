@@ -11,12 +11,12 @@ class TransactionsController < ApplicationController
   def create
     transaction = Transaction.new(transaction_params)
 
-      if transaction.save
-        redirect_to category_url(transaction.category), notice: "Transaction was successfully created."
+    if transaction.save
+      redirect_to category_url(transaction.category), notice: 'Transaction was successfully created.'
 
-      else
-         redirect_to category_url(transaction.category), notice: "Failed to create new transaction"
-      end
+    else
+      redirect_to category_url(transaction.category), notice: 'Failed to create new transaction'
+    end
   end
 
   # DELETE /transactions/1 or /transactions/1.json
@@ -28,10 +28,10 @@ class TransactionsController < ApplicationController
     else
       redirect_to categories_url, notice: 'Faile to delete transaction.'
     end
-
   end
 
   private
+
   # Use callbacks to share common setup or constraints between actions.
   def set_category
     @category = Category.find(params[:id])

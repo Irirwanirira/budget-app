@@ -1,25 +1,25 @@
 .welcome_page {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .add-cate {
-    padding: 2rem;
-    font-size: 2rem;
-    color: aliceblue;
-    text-decoration: none;
+  padding: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
 }
 
 .flex-end-add {
-    margin-top: 20%;
-    width: 100%;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 2rem;
-    background-color: #fff;
+  margin-top: 20%;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #fff;
 }
 
 .in_out {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

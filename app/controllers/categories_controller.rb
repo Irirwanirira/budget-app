@@ -28,7 +28,6 @@ class CategoriesController < ApplicationController
     end
   end
 
-
   # DELETE /categories/1 or /categories/1.json
   def destroy
     @category = Category.find(params[:id])
@@ -40,7 +39,7 @@ class CategoriesController < ApplicationController
     end
   end
 
-  private 
+  private
 
   # Only allow a list of trusted parameters through.
   def category_params

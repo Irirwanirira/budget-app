@@ -15,13 +15,12 @@
  */
 
 body {
-    background-color: rgb(194, 76, 17);
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  background-color: rgb(194, 76, 17);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .image_tag {
-    width: 20%;
+  width: 20%;
 }
-

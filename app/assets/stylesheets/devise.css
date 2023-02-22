@@ -1,31 +1,29 @@
 .align-center {
-    text-align: center;
-    margin-top: 10rem;
+  text-align: center;
+  margin-top: 10rem;
 }
 
-
-
 .login {
-    width: 50%;
-    padding: 1rem;
-    font-size: 1rem;
-    background-color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 2rem;
-    margin: 1rem 3rem;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 2rem;
+  margin: 1rem 3rem;
 }
 
 .label {
-    font-size: 1rem;
-    font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .input {
-    width: 100%;    
-    font-size: 1.5rem;
+  width: 100%;
+  font-size: 1.5rem;
 }
 
 .links {
-    background-color: rgb(241, 84, 84);
+  background-color: rgb(241, 84, 84);
 }
