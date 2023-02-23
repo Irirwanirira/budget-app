@@ -64,18 +64,12 @@ E-neza App is a frinchised online web application that allows the user to manage
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- Create, show or delete a users
-- Modify styles towaards top level
-- Display a transaction list
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://www.loom.com/share/a0bca297074c48509902e8e8a65cb00b)
 
@@ -85,10 +79,6 @@ E-neza App is a frinchised online web application that allows the user to manage
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -117,6 +107,15 @@ Install this project with:
 Install the required gems
 ```sh
   bundle install
+```
+Create database with 
+```sh
+rails db:create
+```
+
+run your migration
+```sh
+rails db:migrate
 ```
 
 ### Usage
@@ -155,8 +154,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 
 👤 **Joseph Irirwanirira**
 
@@ -171,11 +168,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] A better User Interface
-- [ ] The inventory functionality
-- [ ] A chat functionality for users to communicate with Recipe and Food creators
+- [ ] The Tansaction functionality
+- [ ] A chat functionality for users to communicate with category creator.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +188,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project, please give it a star.
 
@@ -203,7 +197,6 @@ If you like this project, please give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 - I would like to thank **Microverse** for their continued support. They've provided us with the reading material that have helped us to create this application.
 
@@ -217,7 +210,6 @@ If you like this project, please give it a star.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I reuse this code?**
 
