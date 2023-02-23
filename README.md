@@ -3,9 +3,9 @@
 </div>
 
 
-![Alt text](../../../Downloads/mobile.png)
-![Alt text](../../../Downloads/mobile%20(1).png)
-![Alt text](../../../Downloads/mobile%20(2).png)
+[Alt text](../../../Downloads/mobile.png)
+[Alt text](../../../Downloads/mobile%20(1).png)
+[Alt text](../../../Downloads/mobile%20(2).png)
 
 <!-- TABLE OF CONTENTS -->
 
