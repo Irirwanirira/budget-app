@@ -3,7 +3,7 @@
 }
 
 .main-nav {
-  background-color: hwb(242 9% 33%);
+  background-color: #377bc2;
   color: #fff;
 }
 
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
-  background-color: hwb(242 9% 33%);
+  background-color: #377bc2;
   color: #fff;
 }
 
@@ -35,7 +35,7 @@
   align-items: center;
   padding: 1rem;
   border-radius: 2rem;
-  background-color: rgb(11, 118, 18);
+  background-color: #5fb523;
 }
 
 .below-nav {
@@ -48,7 +48,7 @@
 }
 
 .delete {
-  background-color: rgb(0, 255, 115);
+  background-color: #5fb523;
   padding: 0.5rem;
   font-size: 1rem;
   border: none;
