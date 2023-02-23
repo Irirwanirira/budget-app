@@ -3,16 +3,13 @@
 
   <% if @categories.exists? %>
     <div>
-    <div class="top-nav">
-    <p><%= link_to "User", users_path%></p>
-    <h1>Categories</h1>
-  </div>
-      
+      <div class="top-nav">
+        <p><%= link_to "User", users_path, class: "links"%></p>
+        <h1>CATEGORIES</h1>
+      </div>
+        
       <% @categories.each do |category| %>
-        <div>
-          <%= render category %>
-          <%= button_to "Delete", category_path(category), method: :delete, class: "delete-category" %>
-        </div>
+        <%= render category%><br>
       <% end %> 
     </div>
 

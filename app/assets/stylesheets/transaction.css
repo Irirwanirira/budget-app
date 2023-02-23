@@ -28,18 +28,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(207, 114, 33);
+  background-color: rgb(226, 226, 226);
   margin-top: 0.3rem;
 }
 
 .transaction-flex p {
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
 .delete-category {
-  background-color: rgb(252, 4, 4);
+  background-color: rgb(6, 144, 34);
   padding: 0.5rem;
   font-size: 1rem;
   border: none;

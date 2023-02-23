@@ -4,13 +4,12 @@
     <img src="<%=category.icon %>" alt='category icon', class="icon"/>
    
     <p>
-      <%= category.name %>
+     <strong><%= category.name %></strong>
     </p>
 
     <p>
-      <strong>$</strong>
-      <%= category.transactions.sum(:amount) %>
+      <strong>$<%= category.transactions.sum(:amount)%></strong>
     </p>
-    
+
   </div>
 <% end %>

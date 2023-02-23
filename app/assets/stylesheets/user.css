@@ -5,7 +5,7 @@
 .add-cate {
   padding: 2rem;
   font-size: 2rem;
-  color: aliceblue;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -15,7 +15,7 @@
   align-items: center;
   padding: 1rem;
   border-radius: 2rem;
-  background-color: #fff;
+  background-color: rgb(11, 118, 18);
 }
 
 .in_out {
