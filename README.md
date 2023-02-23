@@ -3,9 +3,9 @@
 </div>
 
 
-![Alt text](../../../Downloads/mobile.png)
-![Alt text](../../../Downloads/mobile%20(1).png)
-![Alt text](../../../Downloads/mobile%20(2).png)
+![mobile](https://user-images.githubusercontent.com/105460631/220864252-c1381fdf-35cd-4760-b6dd-8262b36e04e6.png)
+![mobile (1)](https://user-images.githubusercontent.com/105460631/220864282-a4993499-95fb-49a8-ab37-e3b5eca242f2.png)
+![mobile (2)](https://user-images.githubusercontent.com/105460631/220864316-80da1d04-f9db-4fe7-a079-8367562bdf3b.png)
 
 <!-- TABLE OF CONTENTS -->
 
