@@ -1,0 +1,26 @@
+
+<section>
+
+  <% if @categories.exists? %>
+    <div>
+      <div class="top-nav">
+        <p><%= link_to "User", users_path, class: "links"%></p>
+        <h1>CATEGORIES</h1>
+      </div>
+        
+      <% @categories.each do |category| %>
+        <%= render category%><br>
+      <% end %> 
+    </div>
+
+  <% else %> 
+  <div class="logo">
+    <p class="app_name">E-neza Transaction</p>
+  </div>
+  <% end %>
+
+  <button class="flex-end-add">
+    <%= link_to "Add Category", new_category_path, class: "add-cate" %>
+  </button>
+
+</section>

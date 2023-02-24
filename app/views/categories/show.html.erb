@@ -1,0 +1,40 @@
+<section class="section-transaction" >
+  <div>
+      <div class="main-nav">
+        <div class="top-nav">
+          <p><%= link_to "Back", categories_path, class: "links"%></p>
+          <h3>TRANSACTIONS on <%= @category.name%></h3>
+          <p><%= link_to "User", users_path, class: "links"%></p>
+        </div>
+
+        <div class="trendz">
+          <p><%= link_to "Most recent", categories_path, class: "links"%></p>
+          <p>Most ancient</p>
+        </div>
+        
+      </div>
+
+      <div class="below-nav">
+        <p> Total: $
+        <strong><%= @category.transactions.sum(:amount) %></strong>
+        </p>
+        <%= button_to "Delete", @category, method: :delete, class: "delete" %>
+      </div>
+
+      
+
+      <% if @transactions.exists? %>
+        <div>
+          <% @transactions.each do |transaction| %>
+          <div> 
+              <%= render transaction %>
+            </div>
+          <% end %>
+        </div>
+      <% else %>  
+      <% end %>
+  </div>
+  <button class="flex-end">
+   <%= link_to "Add Transaction", new_category_transaction_path(@category), class: "add-transaction" %>
+  </button>
+</section>

@@ -1,0 +1,24 @@
+<div>
+
+  <div class="align-center">
+    <p><%= link_to "Back", new_user_registration_path, class: "D-links"%></p>
+    <h2 class="devise-header">Log in to continue</h2>
+    <p class="D-links">Next</p>
+  </div>
+  
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+    <div class="field">
+      <%= f.email_field :email, placeholder: "Email", autofocus: true, autocomplete: "email", class: "input" %>
+    </div>
+
+    <div class="field">
+      <%= f.password_field :password, placeholder: "Password", autocomplete: "current-password", class: "input" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Log in", class: "login" %>
+    </div>
+  <% end %>
+  <p><%= link_to "Forget password", new_password_path(resource_name), class: "shared-s"%></p>
+  
+</div>

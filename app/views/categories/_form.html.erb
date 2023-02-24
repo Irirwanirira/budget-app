@@ -1,0 +1,16 @@
+<section  class=" form-transact" >   
+  <%= form_with(model: category) do |form| %>
+
+    <div>
+      <%= form.text_field :name, placeholder: "Name", class:"input" %>
+    </div>
+
+    <div>
+      <%= form.text_field :icon, placeholder: "Icon", class: "input" %>
+    </div>
+
+    <button class="save-b">
+      <%= form.submit :save, class: "save" %>
+    </button>
+  <% end %>
+</section>

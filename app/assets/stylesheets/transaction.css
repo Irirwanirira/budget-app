@@ -1,0 +1,48 @@
+.add-transaction {
+  padding: 2rem;
+  font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.section-transaction {
+  margin: 0;
+  padding: 0;
+}
+
+.save-transact {
+  border: none;
+  font-size: 1rem;
+}
+
+.form-transact button {
+  margin-top: 0.5rem;
+}
+
+.new-transaction {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.transaction-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(226, 226, 226);
+  margin-top: 0.3rem;
+}
+
+.transaction-flex p {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.delete-category {
+  background-color: #5fb523;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  margin-left: 40%;
+}

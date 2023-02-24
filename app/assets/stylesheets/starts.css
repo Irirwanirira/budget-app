@@ -1,0 +1,36 @@
+.on_start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  margin-top: 3rem;
+  padding-top: 12rem;
+  background-color: #377bc2;
+  border-radius: 50%;
+}
+
+.app_name {
+  text-align: center;
+  background-color: #377bc2;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 3rem;
+}
+
+.start {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.start p {
+  width: 70%;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #5fb523;
+  margin: 1rem 3rem;
+  font-size: 1.5rem;
+}
