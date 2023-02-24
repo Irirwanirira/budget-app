@@ -6,6 +6,10 @@
 ![mobile (4)](https://user-images.githubusercontent.com/105460631/220934738-f42cc3e1-a546-46c1-a46f-955a4863aba1.png)
 ![mobile (5)](https://user-images.githubusercontent.com/105460631/220934762-99f43feb-0e15-491c-8f29-8659fc798727.png)
 
+## 🚀 Live Presentation <a name="Live Presentation"></a>
+
+- [Live Presentation](https://www.loom.com/share/64ad0b82ab9943a8acad3397f2e4740c)
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -68,10 +72,9 @@ E-neza App is a frinchised online web application that allows the user to manage
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="Live-presentation"></a>
+## 🚀 Live Demo <a name="Live Demo Link"></a>
 
-
-- [Live Presentation](https://www.loom.com/share/64ad0b82ab9943a8acad3397f2e4740c)
+- [Live Demo link](https://budget-app-deploy.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
