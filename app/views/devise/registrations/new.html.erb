@@ -1,43 +1,41 @@
-<section class="align-center">  
-  <h2>Sign up to continue</h2>
+<section>
 
+  <div class="align-center">
+    <p><%= link_to "Back", new_user_session_path, class: "D-links"%></p>
+    <h2 class="devise-header">Sign up to continue</h2>
+    <p class="D-links">Next</p>
+  </div>
+ 
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= render "devise/shared/error_messages", resource: resource %>
 
     <div class="field">
-      <%= f.label :name %><br />
-      <%= f.text_field :name, autofocus: true, autocomplete: "name", class: "input" %>
+      <%= f.text_field :name, placeholder: "Name", autofocus: true, autocomplete: "name", class: "input" %>
     </div>
 
     <div class="field">
-      <%= f.label :email %><br />
-      <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "input" %>
+      <%= f.email_field :email, placeholder: "Email", autofocus: true, autocomplete: "email", class: "input" %>
     </div>
 
     <div class="field">
-      <%= f.label :role %><br />
-      <%= f.text_field :role, autofocus: true, autocomplete: "role", class: "input" %>
+      <%= f.text_field :role, placeholder: "Role", autofocus: true, autocomplete: "role", class: "input" %>
     </div>
 
     <div class="field">
-      <%= f.label :password %>
       <% if @minimum_password_length %>
       <em>(<%= @minimum_password_length %> characters minimum)</em>
       <% end %><br />
-      <%= f.password_field :password, autocomplete: "new-password", class: "input" %>
+      <%= f.password_field :password, placeholder: "Password", autocomplete: "new-password", class: "input" %>
     </div>
 
     <div class="field">
-      <%= f.label :password_confirmation %><br />
-      <%= f.password_field :password_confirmation, autocomplete: "new-password", class: "input" %>
+      <%= f.password_field :password_confirmation, placeholder: "password_confirmation", autocomplete: "new-password", class: "input" %>
     </div>
 
     <div class="actions">
       <%= f.submit "Sign up", class:"login" %>
     </div>
   <% end %>
-  </div>
-  <%= render "devise/shared/links" %>
-
+  
 </section>
 

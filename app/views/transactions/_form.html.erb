@@ -1,4 +1,4 @@
-<section class="align-center form-transact" >
+<section class=" form-transact" >
   <%= form_with(model: transaction, url: category_transactions_path(@category)) do |form| %>
     <div class="category-select">
       <%= form.label :category_id %>
@@ -6,17 +6,15 @@
     </div>
 
     <div>
-      <%= form.label :name, style: "display: block" %>
-      <%= form.text_field :name %>
+      <%= form.text_field :name, placeholder: "Name", class: "input" %>
     </div>
 
     <div>
-      <%= form.label :amount, style: "display: block" %>
-      <%= form.number_field :amount %>
+      <%= form.number_field :amount, placeholder: "Amount", class: "input" %>
     </div>
 
-    <button>
-      <%= form.submit :save, class: "save-transact"%>
+    <button class="save-b">
+      <%= form.submit :save, class: "save"%>
     </button>
   <% end %>
 </section>
