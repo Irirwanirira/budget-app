@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" >
   <h3><b>Budget App</b></h3>
 </div>
 
