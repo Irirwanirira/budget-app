@@ -39,7 +39,7 @@
 
 # 📖 Budget App <a name="about-project"></a>
 
-E-neza App is a frinchised online web application that allows the user to manage his/her budget: they have a list of transactions associated with a category, so that the user can see how much money they spend and on a particular category.
+E-neza App is a frinchised online mobile application that allows the user to manage his/her budget: they have a list of transactions associated with a category, so that the user can see how much money they spend and on a particular category.
 
 ## 🛠 Built With <a name="built-with"></a>
 
